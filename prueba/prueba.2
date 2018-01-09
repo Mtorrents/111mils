@@ -1,0 +1,12 @@
+﻿SELECT
+	a.property_type_name,
+	count(a.property_type_name)
+FROM 
+	property_type a
+	NATURAL INNER JOIN  property_type b
+	NATURAL INNER JOIN  property c
+WHERE
+	c.property_type_id<>0	
+GROUP BY 1,property_type_id;
+
+	

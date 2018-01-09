@@ -1,0 +1,17 @@
+﻿
+SELECT 	
+	
+	b.region_name,
+	AVG(a.price::numeric) averages
+FROM
+	property a
+	NATURAL INNER JOIN region b
+
+
+WHERE
+	b.region_name ='Barcelona'
+
+GROUP BY 1 ;
+
+
+	
