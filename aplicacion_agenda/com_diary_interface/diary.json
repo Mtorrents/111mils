@@ -1,0 +1,16 @@
+{
+	"dni":39642511,
+	"name": "Martin",
+	"surname": "Torrents",
+	"birthday": "26/04/1996",
+	"nationality": "Argentina",
+	"gender": "Masculino",
+	"contact_information": {
+	 "person": 39642511,
+	 "mobile_phone": "15-5988-0377",
+	 "phone": "3980-1282",
+	 "email": "martint@gmail.com",
+	 "address": "vidal 3424",
+	}
+}
+
